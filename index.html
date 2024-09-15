@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Quote Generator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="card">
+                <h1 id="header">Quote Of The Day</h1>
+                <img id="line1" src="minus-sign.png" alt="line">
+                <blockquote id="quotes">Loading...</blockquote>
+                <div id="writer-name">
+                    <img id="line2" src="minus-sign.png" alt="line">
+                    <p id="authors">Loading...</p>
+                </div>
+                <div class="buttons">
+                    <button id="btn1">New Quote</button>
+                    <button id="btn2" onclick="tweet()"><i class="fa-brands fa-twitter" style="color: #74C0FC;"></i>Tweet</button>
+                </div>
+            </div>
+        </div>
+       
+        
+        <script src="script.js" async defer></script>
+    </body>
+</html>

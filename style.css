@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+  
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 100%;
+    max-width: 700px;
+    background-color: #fff;
+    padding: 20px; 
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+#header{
+    margin-top: 2%;
+}
+
+#line1{
+    width: 70px;
+    height: 18px;
+    margin-right: 32px;
+}
+
+#quotes{
+    margin: 5% 0 2% 0;
+    font-size: 1.3rem;
+    font-weight: 600;
+    min-width: 300px;
+    max-width: 500px;
+    text-align: center;
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}  
+
+#writer-name{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    font-family: "Playpen Sans", cursive;
+    font-weight: 600;
+}
+
+#line2{
+    width: 25px;
+    height: 15px;
+    padding-right: 5px;
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+
+.buttons button{
+    width: 8vw;
+    height: 6vh;
+    margin-top: 5%;
+    border-radius: 2rem;
+    font-size: 1rem;
+    outline: none;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .buttons button{
+        width: 30vw;
+    }
+}
+
+#btn1{
+    background-color: rgb(19, 161, 218);
+    color: white;
+    border: none;
+}
+
+#btn2{
+    background-color: #fff;
+    border:1px solid rgb(156, 156, 156);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn2 i{
+    padding-right: 5px;
+    font-size: 1.5rem;
+}
